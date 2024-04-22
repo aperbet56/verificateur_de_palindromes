@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*** Reset ****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+/**** Style général de la page ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f8f8f8;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 1.5rem;
+}
+
+.container {
+    width: calc(768px - 1rem);
+    background-color: #f3fbfb;
+    color:#272343;
+    border-radius: 15px;
+    padding: 1.5rem 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 30px;
+    margin-bottom: 1rem;
+}
+
+label {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    width: 100%;
+    background-color: #bae8e8;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 12px;
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgb(59, 252, 171);
+}
+
+input, button {
+    font-family: "Montserrat", sans-serif;
+}
+
+.box {
+    padding: 12px 0;
+}
+
+.box span {
+    display: block;
+    font-size: 1.2rem;
+}
+
+.user__input {
+    margin-bottom: 0.5rem;
+}
+
+#is__palindrome {
+    padding: 6px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.true, .false {
+    color: #ffffff;
+}
+
+.true {
+    background-color: #58c295;
+}
+
+.false {
+    background-color: #e14849;
+}
+
+.check__btn {
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 12px;
+    text-align: center;
+    padding: 12px;
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: #ffd803;
+    color: #272343;
+    transition: box-shadow 0.4s ease-in-out;
+}
+
+.check__btn:hover {
+    box-shadow: 5px 5px 5px #272343;
+}
+
+footer span {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
