@@ -6,7 +6,7 @@ Création d'une page web qui va permettre à un internaute de vérifier si un mo
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/verificateur_de_palindromes/
 
 ## Développez avec
 
