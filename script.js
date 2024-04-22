@@ -27,7 +27,7 @@ const checkPalindrome = () => {
     console.log("n'est pas un palindrome");
     isPalindrome.classList.remove("true");
     isPalindrome.classList.add("false");
-    isPalindrome.textContent = "n'est un palindrome";
+    isPalindrome.textContent = "n'est pas un palindrome";
     userInput.textContent = text.value;
   }
 };
