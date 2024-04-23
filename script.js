@@ -6,7 +6,17 @@ const checkBtn = document.querySelector(".check__btn");
 
 // Déclaration de la fonction checkPalindrome qui va vérifier si le mot ou la phrase est un palindrome
 const checkPalindrome = () => {
+  /**
+   * Explication de la regex (expression régulère):
+   * / ... /g It's a global regex. So it'll operate on multiple matches in the string.
+   * [ ... ] This creates a character set. Basically it'll match any single character within the listed set of characters.
+   * W_ This matches the inverse of "word characters" and underscores. Any non-word character.
+   */
   const regularExpression = /[\W_]/g;
+  /**
+   * replace find all occurences of a regex, and replace it with another string.
+   * So my expression replace any non word character, or _ or to an empty string
+   */
   let lowerRegValue = text.value.toLowerCase().replace(regularExpression, "");
   let reverseValue = lowerRegValue.split("").reverse().join("");
 
