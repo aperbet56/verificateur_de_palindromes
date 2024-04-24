@@ -11,7 +11,7 @@ Lien vers le projet : https://aperbet56.github.io/verificateur_de_palindromes/
 ## Développez avec
 
 - Utilisation des balises sémantiques HTML5
-- CSS
+- CSS3
 - Flexbox
 - Animations CSS au survol et au focus
 - Page web responsive
